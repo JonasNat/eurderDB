@@ -1,2 +1,4 @@
-package com.switchfully.eurderdb.security;public class EmailPassword {
+package com.switchfully.eurderdb.security;
+
+public record EmailPassword (String email, String password){
 }
